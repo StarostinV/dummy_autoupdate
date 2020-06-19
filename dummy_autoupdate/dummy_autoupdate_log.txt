@@ -1,0 +1,527 @@
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1145
+INFO:dummy_autoupdate.check_version:result: {"info":{"author":"Vladimir Starostin","author_email":"vladimir.starostin@uni-tuebingen.de","bugtrack_url":null,"classifiers":[],"description":"","description_content_type":"","docs_url":null,"download_url":"","downloads":{"last_day":-1,"last_month":-1,"last_week":-1},"home_page":"","keywords":"","license":"MIT","maintainer":"","maintainer_email":"","name":"dummy-autoupdate","package_url":"https://pypi.org/project/dummy-autoupdate/","platform":"","project_url":"https://pypi.org/project/dummy-autoupdate/","project_urls":null,"release_url":"https://pypi.org/project/dummy-autoupdate/0.2.1/","requires_dist":null,"requires_python":">=3.7.2","summary":"Dummy autoupdate for testing","version":"0.2.1","yanked":false,"yanked_reason":null},"last_serial":7510629,"releases":{"0.0.2":[{"comment_text":"","digests":{"md5":"b6f60a347098c1d48ef27fc7b1b02f07","sha256":"41e6c446736e62c4ac5b8eae4944212b8947091f864ca890b66af1235042ee29"},"downloads":-1,"filename":"dummy_autoupdate-0.0.2.tar.gz","has_sig":false,"md5_digest":"b6f60a347098c1d48ef27fc7b1b02f07","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4503,"upload_time":"2020-06-18T23:25:00","upload_time_iso_8601":"2020-06-18T23:25:00.150931Z","url":"https://files.pythonhosted.org/packages/11/88/4d2eb3de4ab894646cc4735d8906ffd133513c18672eec4b35acba271d0a/dummy_autoupdate-0.0.2.tar.gz","yanked":false,"yanked_reason":null}],"0.1.0":[{"comment_text":"","digests":{"md5":"a185ebd16dc099eece63d72e6ea316e2","sha256":"b26b74c2dc1fa82e4464ff13d1d993a3d7ddbd850f4499b1d16136ade8b80236"},"downloads":-1,"filename":"dummy_autoupdate-0.1.0.tar.gz","has_sig":false,"md5_digest":"a185ebd16dc099eece63d72e6ea316e2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4183,"upload_time":"2020-06-18T22:26:14","upload_time_iso_8601":"2020-06-18T22:26:14.558121Z","url":"https://files.pythonhosted.org/packages/76/dd/68fb8ddf2256dc519e44279d2ca943ba2f7393efcd3ab869f6c1f9075051/dummy_autoupdate-0.1.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.0":[{"comment_text":"","digests":{"md5":"748e2d502ca253b9402e47da7107d673","sha256":"04667d1db28255ee20d86fcc59d8a97a5c0c6cacea9278406573c551b9b5d682"},"downloads":-1,"filename":"dummy_autoupdate-0.2.0.tar.gz","has_sig":false,"md5_digest":"748e2d502ca253b9402e47da7107d673","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4513,"upload_time":"2020-06-18T23:26:13","upload_time_iso_8601":"2020-06-18T23:26:13.625837Z","url":"https://files.pythonhosted.org/packages/81/fa/c9794f796329f308fbedbd8b1cf04abc23dac95f3918a2670eaa2da38831/dummy_autoupdate-0.2.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.1":[{"comment_text":"","digests":{"md5":"b4aa1ffaf5357a5c69590d9ca9e349ea","sha256":"34e1c865688a2a549102888ed5c7bc9545838173504bad965aafd019e31fcc82"},"downloads":-1,"filename":"dummy_autoupdate-0.2.1.tar.gz","has_sig":false,"md5_digest":"b4aa1ffaf5357a5c69590d9ca9e349ea","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4528,"upload_time":"2020-06-18T23:30:10","upload_time_iso_8601":"2020-06-18T23:30:10.843095Z","url":"https://files.pythonhosted.org/packages/cd/79/18bcfc0b768950a501e16e97ed2c5e57cf8f7cc686454dd37fcbbadf13f6/dummy_autoupdate-0.2.1.tar.gz","yanked":false,"yanked_reason":null}]},"urls":[{"comment_text":"","digests":{"md5":"b4aa1ffaf5357a5c69590d9ca9e349ea","sha256":"34e1c865688a2a549102888ed5c7bc9545838173504bad965aafd019e31fcc82"},"downloads":-1,"filename":"dummy_autoupdate-0.2.1.tar.gz","has_sig":false,"md5_digest":"b4aa1ffaf5357a5c69590d9ca9e349ea","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4528,"upload_time":"2020-06-18T23:30:10","upload_time_iso_8601":"2020-06-18T23:30:10.843095Z","url":"https://files.pythonhosted.org/packages/cd/79/18bcfc0b768950a501e16e97ed2c5e57cf8f7cc686454dd37fcbbadf13f6/dummy_autoupdate-0.2.1.tar.gz","yanked":false,"yanked_reason":null}]}
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.1.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1145
+INFO:dummy_autoupdate.check_version:result: {"info":{"author":"Vladimir Starostin","author_email":"vladimir.starostin@uni-tuebingen.de","bugtrack_url":null,"classifiers":[],"description":"","description_content_type":"","docs_url":null,"download_url":"","downloads":{"last_day":-1,"last_month":-1,"last_week":-1},"home_page":"","keywords":"","license":"MIT","maintainer":"","maintainer_email":"","name":"dummy-autoupdate","package_url":"https://pypi.org/project/dummy-autoupdate/","platform":"","project_url":"https://pypi.org/project/dummy-autoupdate/","project_urls":null,"release_url":"https://pypi.org/project/dummy-autoupdate/0.2.1/","requires_dist":null,"requires_python":">=3.7.2","summary":"Dummy autoupdate for testing","version":"0.2.1","yanked":false,"yanked_reason":null},"last_serial":7510629,"releases":{"0.0.2":[{"comment_text":"","digests":{"md5":"b6f60a347098c1d48ef27fc7b1b02f07","sha256":"41e6c446736e62c4ac5b8eae4944212b8947091f864ca890b66af1235042ee29"},"downloads":-1,"filename":"dummy_autoupdate-0.0.2.tar.gz","has_sig":false,"md5_digest":"b6f60a347098c1d48ef27fc7b1b02f07","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4503,"upload_time":"2020-06-18T23:25:00","upload_time_iso_8601":"2020-06-18T23:25:00.150931Z","url":"https://files.pythonhosted.org/packages/11/88/4d2eb3de4ab894646cc4735d8906ffd133513c18672eec4b35acba271d0a/dummy_autoupdate-0.0.2.tar.gz","yanked":false,"yanked_reason":null}],"0.1.0":[{"comment_text":"","digests":{"md5":"a185ebd16dc099eece63d72e6ea316e2","sha256":"b26b74c2dc1fa82e4464ff13d1d993a3d7ddbd850f4499b1d16136ade8b80236"},"downloads":-1,"filename":"dummy_autoupdate-0.1.0.tar.gz","has_sig":false,"md5_digest":"a185ebd16dc099eece63d72e6ea316e2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4183,"upload_time":"2020-06-18T22:26:14","upload_time_iso_8601":"2020-06-18T22:26:14.558121Z","url":"https://files.pythonhosted.org/packages/76/dd/68fb8ddf2256dc519e44279d2ca943ba2f7393efcd3ab869f6c1f9075051/dummy_autoupdate-0.1.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.0":[{"comment_text":"","digests":{"md5":"748e2d502ca253b9402e47da7107d673","sha256":"04667d1db28255ee20d86fcc59d8a97a5c0c6cacea9278406573c551b9b5d682"},"downloads":-1,"filename":"dummy_autoupdate-0.2.0.tar.gz","has_sig":false,"md5_digest":"748e2d502ca253b9402e47da7107d673","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4513,"upload_time":"2020-06-18T23:26:13","upload_time_iso_8601":"2020-06-18T23:26:13.625837Z","url":"https://files.pythonhosted.org/packages/81/fa/c9794f796329f308fbedbd8b1cf04abc23dac95f3918a2670eaa2da38831/dummy_autoupdate-0.2.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.1":[{"comment_text":"","digests":{"md5":"b4aa1ffaf5357a5c69590d9ca9e349ea","sha256":"34e1c865688a2a549102888ed5c7bc9545838173504bad965aafd019e31fcc82"},"downloads":-1,"filename":"dummy_autoupdate-0.2.1.tar.gz","has_sig":false,"md5_digest":"b4aa1ffaf5357a5c69590d9ca9e349ea","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4528,"upload_time":"2020-06-18T23:30:10","upload_time_iso_8601":"2020-06-18T23:30:10.843095Z","url":"https://files.pythonhosted.org/packages/cd/79/18bcfc0b768950a501e16e97ed2c5e57cf8f7cc686454dd37fcbbadf13f6/dummy_autoupdate-0.2.1.tar.gz","yanked":false,"yanked_reason":null}]},"urls":[{"comment_text":"","digests":{"md5":"b4aa1ffaf5357a5c69590d9ca9e349ea","sha256":"34e1c865688a2a549102888ed5c7bc9545838173504bad965aafd019e31fcc82"},"downloads":-1,"filename":"dummy_autoupdate-0.2.1.tar.gz","has_sig":false,"md5_digest":"b4aa1ffaf5357a5c69590d9ca9e349ea","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4528,"upload_time":"2020-06-18T23:30:10","upload_time_iso_8601":"2020-06-18T23:30:10.843095Z","url":"https://files.pythonhosted.org/packages/cd/79/18bcfc0b768950a501e16e97ed2c5e57cf8f7cc686454dd37fcbbadf13f6/dummy_autoupdate-0.2.1.tar.gz","yanked":false,"yanked_reason":null}]}
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.1.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1145
+INFO:dummy_autoupdate.check_version:result: {"info":{"author":"Vladimir Starostin","author_email":"vladimir.starostin@uni-tuebingen.de","bugtrack_url":null,"classifiers":[],"description":"","description_content_type":"","docs_url":null,"download_url":"","downloads":{"last_day":-1,"last_month":-1,"last_week":-1},"home_page":"","keywords":"","license":"MIT","maintainer":"","maintainer_email":"","name":"dummy-autoupdate","package_url":"https://pypi.org/project/dummy-autoupdate/","platform":"","project_url":"https://pypi.org/project/dummy-autoupdate/","project_urls":null,"release_url":"https://pypi.org/project/dummy-autoupdate/0.2.1/","requires_dist":null,"requires_python":">=3.7.2","summary":"Dummy autoupdate for testing","version":"0.2.1","yanked":false,"yanked_reason":null},"last_serial":7510629,"releases":{"0.0.2":[{"comment_text":"","digests":{"md5":"b6f60a347098c1d48ef27fc7b1b02f07","sha256":"41e6c446736e62c4ac5b8eae4944212b8947091f864ca890b66af1235042ee29"},"downloads":-1,"filename":"dummy_autoupdate-0.0.2.tar.gz","has_sig":false,"md5_digest":"b6f60a347098c1d48ef27fc7b1b02f07","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4503,"upload_time":"2020-06-18T23:25:00","upload_time_iso_8601":"2020-06-18T23:25:00.150931Z","url":"https://files.pythonhosted.org/packages/11/88/4d2eb3de4ab894646cc4735d8906ffd133513c18672eec4b35acba271d0a/dummy_autoupdate-0.0.2.tar.gz","yanked":false,"yanked_reason":null}],"0.1.0":[{"comment_text":"","digests":{"md5":"a185ebd16dc099eece63d72e6ea316e2","sha256":"b26b74c2dc1fa82e4464ff13d1d993a3d7ddbd850f4499b1d16136ade8b80236"},"downloads":-1,"filename":"dummy_autoupdate-0.1.0.tar.gz","has_sig":false,"md5_digest":"a185ebd16dc099eece63d72e6ea316e2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4183,"upload_time":"2020-06-18T22:26:14","upload_time_iso_8601":"2020-06-18T22:26:14.558121Z","url":"https://files.pythonhosted.org/packages/76/dd/68fb8ddf2256dc519e44279d2ca943ba2f7393efcd3ab869f6c1f9075051/dummy_autoupdate-0.1.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.0":[{"comment_text":"","digests":{"md5":"748e2d502ca253b9402e47da7107d673","sha256":"04667d1db28255ee20d86fcc59d8a97a5c0c6cacea9278406573c551b9b5d682"},"downloads":-1,"filename":"dummy_autoupdate-0.2.0.tar.gz","has_sig":false,"md5_digest":"748e2d502ca253b9402e47da7107d673","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4513,"upload_time":"2020-06-18T23:26:13","upload_time_iso_8601":"2020-06-18T23:26:13.625837Z","url":"https://files.pythonhosted.org/packages/81/fa/c9794f796329f308fbedbd8b1cf04abc23dac95f3918a2670eaa2da38831/dummy_autoupdate-0.2.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.1":[{"comment_text":"","digests":{"md5":"b4aa1ffaf5357a5c69590d9ca9e349ea","sha256":"34e1c865688a2a549102888ed5c7bc9545838173504bad965aafd019e31fcc82"},"downloads":-1,"filename":"dummy_autoupdate-0.2.1.tar.gz","has_sig":false,"md5_digest":"b4aa1ffaf5357a5c69590d9ca9e349ea","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4528,"upload_time":"2020-06-18T23:30:10","upload_time_iso_8601":"2020-06-18T23:30:10.843095Z","url":"https://files.pythonhosted.org/packages/cd/79/18bcfc0b768950a501e16e97ed2c5e57cf8f7cc686454dd37fcbbadf13f6/dummy_autoupdate-0.2.1.tar.gz","yanked":false,"yanked_reason":null}]},"urls":[{"comment_text":"","digests":{"md5":"b4aa1ffaf5357a5c69590d9ca9e349ea","sha256":"34e1c865688a2a549102888ed5c7bc9545838173504bad965aafd019e31fcc82"},"downloads":-1,"filename":"dummy_autoupdate-0.2.1.tar.gz","has_sig":false,"md5_digest":"b4aa1ffaf5357a5c69590d9ca9e349ea","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4528,"upload_time":"2020-06-18T23:30:10","upload_time_iso_8601":"2020-06-18T23:30:10.843095Z","url":"https://files.pythonhosted.org/packages/cd/79/18bcfc0b768950a501e16e97ed2c5e57cf8f7cc686454dd37fcbbadf13f6/dummy_autoupdate-0.2.1.tar.gz","yanked":false,"yanked_reason":null}]}
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.1.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1145
+INFO:dummy_autoupdate.check_version:result: {"info":{"author":"Vladimir Starostin","author_email":"vladimir.starostin@uni-tuebingen.de","bugtrack_url":null,"classifiers":[],"description":"","description_content_type":"","docs_url":null,"download_url":"","downloads":{"last_day":-1,"last_month":-1,"last_week":-1},"home_page":"","keywords":"","license":"MIT","maintainer":"","maintainer_email":"","name":"dummy-autoupdate","package_url":"https://pypi.org/project/dummy-autoupdate/","platform":"","project_url":"https://pypi.org/project/dummy-autoupdate/","project_urls":null,"release_url":"https://pypi.org/project/dummy-autoupdate/0.2.1/","requires_dist":null,"requires_python":">=3.7.2","summary":"Dummy autoupdate for testing","version":"0.2.1","yanked":false,"yanked_reason":null},"last_serial":7510629,"releases":{"0.0.2":[{"comment_text":"","digests":{"md5":"b6f60a347098c1d48ef27fc7b1b02f07","sha256":"41e6c446736e62c4ac5b8eae4944212b8947091f864ca890b66af1235042ee29"},"downloads":-1,"filename":"dummy_autoupdate-0.0.2.tar.gz","has_sig":false,"md5_digest":"b6f60a347098c1d48ef27fc7b1b02f07","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4503,"upload_time":"2020-06-18T23:25:00","upload_time_iso_8601":"2020-06-18T23:25:00.150931Z","url":"https://files.pythonhosted.org/packages/11/88/4d2eb3de4ab894646cc4735d8906ffd133513c18672eec4b35acba271d0a/dummy_autoupdate-0.0.2.tar.gz","yanked":false,"yanked_reason":null}],"0.1.0":[{"comment_text":"","digests":{"md5":"a185ebd16dc099eece63d72e6ea316e2","sha256":"b26b74c2dc1fa82e4464ff13d1d993a3d7ddbd850f4499b1d16136ade8b80236"},"downloads":-1,"filename":"dummy_autoupdate-0.1.0.tar.gz","has_sig":false,"md5_digest":"a185ebd16dc099eece63d72e6ea316e2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4183,"upload_time":"2020-06-18T22:26:14","upload_time_iso_8601":"2020-06-18T22:26:14.558121Z","url":"https://files.pythonhosted.org/packages/76/dd/68fb8ddf2256dc519e44279d2ca943ba2f7393efcd3ab869f6c1f9075051/dummy_autoupdate-0.1.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.0":[{"comment_text":"","digests":{"md5":"748e2d502ca253b9402e47da7107d673","sha256":"04667d1db28255ee20d86fcc59d8a97a5c0c6cacea9278406573c551b9b5d682"},"downloads":-1,"filename":"dummy_autoupdate-0.2.0.tar.gz","has_sig":false,"md5_digest":"748e2d502ca253b9402e47da7107d673","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4513,"upload_time":"2020-06-18T23:26:13","upload_time_iso_8601":"2020-06-18T23:26:13.625837Z","url":"https://files.pythonhosted.org/packages/81/fa/c9794f796329f308fbedbd8b1cf04abc23dac95f3918a2670eaa2da38831/dummy_autoupdate-0.2.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.1":[{"comment_text":"","digests":{"md5":"b4aa1ffaf5357a5c69590d9ca9e349ea","sha256":"34e1c865688a2a549102888ed5c7bc9545838173504bad965aafd019e31fcc82"},"downloads":-1,"filename":"dummy_autoupdate-0.2.1.tar.gz","has_sig":false,"md5_digest":"b4aa1ffaf5357a5c69590d9ca9e349ea","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4528,"upload_time":"2020-06-18T23:30:10","upload_time_iso_8601":"2020-06-18T23:30:10.843095Z","url":"https://files.pythonhosted.org/packages/cd/79/18bcfc0b768950a501e16e97ed2c5e57cf8f7cc686454dd37fcbbadf13f6/dummy_autoupdate-0.2.1.tar.gz","yanked":false,"yanked_reason":null}]},"urls":[{"comment_text":"","digests":{"md5":"b4aa1ffaf5357a5c69590d9ca9e349ea","sha256":"34e1c865688a2a549102888ed5c7bc9545838173504bad965aafd019e31fcc82"},"downloads":-1,"filename":"dummy_autoupdate-0.2.1.tar.gz","has_sig":false,"md5_digest":"b4aa1ffaf5357a5c69590d9ca9e349ea","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4528,"upload_time":"2020-06-18T23:30:10","upload_time_iso_8601":"2020-06-18T23:30:10.843095Z","url":"https://files.pythonhosted.org/packages/cd/79/18bcfc0b768950a501e16e97ed2c5e57cf8f7cc686454dd37fcbbadf13f6/dummy_autoupdate-0.2.1.tar.gz","yanked":false,"yanked_reason":null}]}
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.1.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1289
+INFO:dummy_autoupdate.check_version:result: {"info":{"author":"Vladimir Starostin","author_email":"vladimir.starostin@uni-tuebingen.de","bugtrack_url":null,"classifiers":[],"description":"","description_content_type":"","docs_url":null,"download_url":"","downloads":{"last_day":-1,"last_month":-1,"last_week":-1},"home_page":"","keywords":"","license":"MIT","maintainer":"","maintainer_email":"","name":"dummy-autoupdate","package_url":"https://pypi.org/project/dummy-autoupdate/","platform":"","project_url":"https://pypi.org/project/dummy-autoupdate/","project_urls":null,"release_url":"https://pypi.org/project/dummy-autoupdate/0.2.2/","requires_dist":null,"requires_python":">=3.7.2","summary":"Dummy autoupdate for testing","version":"0.2.2","yanked":false,"yanked_reason":null},"last_serial":7510675,"releases":{"0.0.2":[{"comment_text":"","digests":{"md5":"b6f60a347098c1d48ef27fc7b1b02f07","sha256":"41e6c446736e62c4ac5b8eae4944212b8947091f864ca890b66af1235042ee29"},"downloads":-1,"filename":"dummy_autoupdate-0.0.2.tar.gz","has_sig":false,"md5_digest":"b6f60a347098c1d48ef27fc7b1b02f07","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4503,"upload_time":"2020-06-18T23:25:00","upload_time_iso_8601":"2020-06-18T23:25:00.150931Z","url":"https://files.pythonhosted.org/packages/11/88/4d2eb3de4ab894646cc4735d8906ffd133513c18672eec4b35acba271d0a/dummy_autoupdate-0.0.2.tar.gz","yanked":false,"yanked_reason":null}],"0.1.0":[{"comment_text":"","digests":{"md5":"a185ebd16dc099eece63d72e6ea316e2","sha256":"b26b74c2dc1fa82e4464ff13d1d993a3d7ddbd850f4499b1d16136ade8b80236"},"downloads":-1,"filename":"dummy_autoupdate-0.1.0.tar.gz","has_sig":false,"md5_digest":"a185ebd16dc099eece63d72e6ea316e2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4183,"upload_time":"2020-06-18T22:26:14","upload_time_iso_8601":"2020-06-18T22:26:14.558121Z","url":"https://files.pythonhosted.org/packages/76/dd/68fb8ddf2256dc519e44279d2ca943ba2f7393efcd3ab869f6c1f9075051/dummy_autoupdate-0.1.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.0":[{"comment_text":"","digests":{"md5":"748e2d502ca253b9402e47da7107d673","sha256":"04667d1db28255ee20d86fcc59d8a97a5c0c6cacea9278406573c551b9b5d682"},"downloads":-1,"filename":"dummy_autoupdate-0.2.0.tar.gz","has_sig":false,"md5_digest":"748e2d502ca253b9402e47da7107d673","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4513,"upload_time":"2020-06-18T23:26:13","upload_time_iso_8601":"2020-06-18T23:26:13.625837Z","url":"https://files.pythonhosted.org/packages/81/fa/c9794f796329f308fbedbd8b1cf04abc23dac95f3918a2670eaa2da38831/dummy_autoupdate-0.2.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.1":[{"comment_text":"","digests":{"md5":"b4aa1ffaf5357a5c69590d9ca9e349ea","sha256":"34e1c865688a2a549102888ed5c7bc9545838173504bad965aafd019e31fcc82"},"downloads":-1,"filename":"dummy_autoupdate-0.2.1.tar.gz","has_sig":false,"md5_digest":"b4aa1ffaf5357a5c69590d9ca9e349ea","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4528,"upload_time":"2020-06-18T23:30:10","upload_time_iso_8601":"2020-06-18T23:30:10.843095Z","url":"https://files.pythonhosted.org/packages/cd/79/18bcfc0b768950a501e16e97ed2c5e57cf8f7cc686454dd37fcbbadf13f6/dummy_autoupdate-0.2.1.tar.gz","yanked":false,"yanked_reason":null}],"0.2.2":[{"comment_text":"","digests":{"md5":"335d8c44871df105b45a6a7fc4966aa2","sha256":"1cd56a231150ad22aefc51c083492c4dd1e9d4326b4be36488e382397b55e51d"},"downloads":-1,"filename":"dummy_autoupdate-0.2.2.tar.gz","has_sig":false,"md5_digest":"335d8c44871df105b45a6a7fc4966aa2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4586,"upload_time":"2020-06-18T23:38:17","upload_time_iso_8601":"2020-06-18T23:38:17.615737Z","url":"https://files.pythonhosted.org/packages/7c/09/067a52e6e46b567421c813e62df81ade32ec29ccf9df954a3fb3b198e34a/dummy_autoupdate-0.2.2.tar.gz","yanked":false,"yanked_reason":null}]},"urls":[{"comment_text":"","digests":{"md5":"335d8c44871df105b45a6a7fc4966aa2","sha256":"1cd56a231150ad22aefc51c083492c4dd1e9d4326b4be36488e382397b55e51d"},"downloads":-1,"filename":"dummy_autoupdate-0.2.2.tar.gz","has_sig":false,"md5_digest":"335d8c44871df105b45a6a7fc4966aa2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4586,"upload_time":"2020-06-18T23:38:17","upload_time_iso_8601":"2020-06-18T23:38:17.615737Z","url":"https://files.pythonhosted.org/packages/7c/09/067a52e6e46b567421c813e62df81ade32ec29ccf9df954a3fb3b198e34a/dummy_autoupdate-0.2.2.tar.gz","yanked":false,"yanked_reason":null}]}
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.2.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1289
+INFO:dummy_autoupdate.check_version:result: {"info":{"author":"Vladimir Starostin","author_email":"vladimir.starostin@uni-tuebingen.de","bugtrack_url":null,"classifiers":[],"description":"","description_content_type":"","docs_url":null,"download_url":"","downloads":{"last_day":-1,"last_month":-1,"last_week":-1},"home_page":"","keywords":"","license":"MIT","maintainer":"","maintainer_email":"","name":"dummy-autoupdate","package_url":"https://pypi.org/project/dummy-autoupdate/","platform":"","project_url":"https://pypi.org/project/dummy-autoupdate/","project_urls":null,"release_url":"https://pypi.org/project/dummy-autoupdate/0.2.2/","requires_dist":null,"requires_python":">=3.7.2","summary":"Dummy autoupdate for testing","version":"0.2.2","yanked":false,"yanked_reason":null},"last_serial":7510675,"releases":{"0.0.2":[{"comment_text":"","digests":{"md5":"b6f60a347098c1d48ef27fc7b1b02f07","sha256":"41e6c446736e62c4ac5b8eae4944212b8947091f864ca890b66af1235042ee29"},"downloads":-1,"filename":"dummy_autoupdate-0.0.2.tar.gz","has_sig":false,"md5_digest":"b6f60a347098c1d48ef27fc7b1b02f07","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4503,"upload_time":"2020-06-18T23:25:00","upload_time_iso_8601":"2020-06-18T23:25:00.150931Z","url":"https://files.pythonhosted.org/packages/11/88/4d2eb3de4ab894646cc4735d8906ffd133513c18672eec4b35acba271d0a/dummy_autoupdate-0.0.2.tar.gz","yanked":false,"yanked_reason":null}],"0.1.0":[{"comment_text":"","digests":{"md5":"a185ebd16dc099eece63d72e6ea316e2","sha256":"b26b74c2dc1fa82e4464ff13d1d993a3d7ddbd850f4499b1d16136ade8b80236"},"downloads":-1,"filename":"dummy_autoupdate-0.1.0.tar.gz","has_sig":false,"md5_digest":"a185ebd16dc099eece63d72e6ea316e2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4183,"upload_time":"2020-06-18T22:26:14","upload_time_iso_8601":"2020-06-18T22:26:14.558121Z","url":"https://files.pythonhosted.org/packages/76/dd/68fb8ddf2256dc519e44279d2ca943ba2f7393efcd3ab869f6c1f9075051/dummy_autoupdate-0.1.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.0":[{"comment_text":"","digests":{"md5":"748e2d502ca253b9402e47da7107d673","sha256":"04667d1db28255ee20d86fcc59d8a97a5c0c6cacea9278406573c551b9b5d682"},"downloads":-1,"filename":"dummy_autoupdate-0.2.0.tar.gz","has_sig":false,"md5_digest":"748e2d502ca253b9402e47da7107d673","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4513,"upload_time":"2020-06-18T23:26:13","upload_time_iso_8601":"2020-06-18T23:26:13.625837Z","url":"https://files.pythonhosted.org/packages/81/fa/c9794f796329f308fbedbd8b1cf04abc23dac95f3918a2670eaa2da38831/dummy_autoupdate-0.2.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.1":[{"comment_text":"","digests":{"md5":"b4aa1ffaf5357a5c69590d9ca9e349ea","sha256":"34e1c865688a2a549102888ed5c7bc9545838173504bad965aafd019e31fcc82"},"downloads":-1,"filename":"dummy_autoupdate-0.2.1.tar.gz","has_sig":false,"md5_digest":"b4aa1ffaf5357a5c69590d9ca9e349ea","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4528,"upload_time":"2020-06-18T23:30:10","upload_time_iso_8601":"2020-06-18T23:30:10.843095Z","url":"https://files.pythonhosted.org/packages/cd/79/18bcfc0b768950a501e16e97ed2c5e57cf8f7cc686454dd37fcbbadf13f6/dummy_autoupdate-0.2.1.tar.gz","yanked":false,"yanked_reason":null}],"0.2.2":[{"comment_text":"","digests":{"md5":"335d8c44871df105b45a6a7fc4966aa2","sha256":"1cd56a231150ad22aefc51c083492c4dd1e9d4326b4be36488e382397b55e51d"},"downloads":-1,"filename":"dummy_autoupdate-0.2.2.tar.gz","has_sig":false,"md5_digest":"335d8c44871df105b45a6a7fc4966aa2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4586,"upload_time":"2020-06-18T23:38:17","upload_time_iso_8601":"2020-06-18T23:38:17.615737Z","url":"https://files.pythonhosted.org/packages/7c/09/067a52e6e46b567421c813e62df81ade32ec29ccf9df954a3fb3b198e34a/dummy_autoupdate-0.2.2.tar.gz","yanked":false,"yanked_reason":null}]},"urls":[{"comment_text":"","digests":{"md5":"335d8c44871df105b45a6a7fc4966aa2","sha256":"1cd56a231150ad22aefc51c083492c4dd1e9d4326b4be36488e382397b55e51d"},"downloads":-1,"filename":"dummy_autoupdate-0.2.2.tar.gz","has_sig":false,"md5_digest":"335d8c44871df105b45a6a7fc4966aa2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4586,"upload_time":"2020-06-18T23:38:17","upload_time_iso_8601":"2020-06-18T23:38:17.615737Z","url":"https://files.pythonhosted.org/packages/7c/09/067a52e6e46b567421c813e62df81ade32ec29ccf9df954a3fb3b198e34a/dummy_autoupdate-0.2.2.tar.gz","yanked":false,"yanked_reason":null}]}
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.2.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+INFO:dummy_autoupdate.check_version:No internet.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1432
+INFO:dummy_autoupdate.check_version:result: {"info":{"author":"Vladimir Starostin","author_email":"vladimir.starostin@uni-tuebingen.de","bugtrack_url":null,"classifiers":[],"description":"","description_content_type":"","docs_url":null,"download_url":"","downloads":{"last_day":-1,"last_month":-1,"last_week":-1},"home_page":"","keywords":"","license":"MIT","maintainer":"","maintainer_email":"","name":"dummy-autoupdate","package_url":"https://pypi.org/project/dummy-autoupdate/","platform":"","project_url":"https://pypi.org/project/dummy-autoupdate/","project_urls":null,"release_url":"https://pypi.org/project/dummy-autoupdate/0.2.3/","requires_dist":null,"requires_python":">=3.7.2","summary":"Dummy autoupdate for testing","version":"0.2.3","yanked":false,"yanked_reason":null},"last_serial":7510683,"releases":{"0.0.2":[{"comment_text":"","digests":{"md5":"b6f60a347098c1d48ef27fc7b1b02f07","sha256":"41e6c446736e62c4ac5b8eae4944212b8947091f864ca890b66af1235042ee29"},"downloads":-1,"filename":"dummy_autoupdate-0.0.2.tar.gz","has_sig":false,"md5_digest":"b6f60a347098c1d48ef27fc7b1b02f07","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4503,"upload_time":"2020-06-18T23:25:00","upload_time_iso_8601":"2020-06-18T23:25:00.150931Z","url":"https://files.pythonhosted.org/packages/11/88/4d2eb3de4ab894646cc4735d8906ffd133513c18672eec4b35acba271d0a/dummy_autoupdate-0.0.2.tar.gz","yanked":false,"yanked_reason":null}],"0.1.0":[{"comment_text":"","digests":{"md5":"a185ebd16dc099eece63d72e6ea316e2","sha256":"b26b74c2dc1fa82e4464ff13d1d993a3d7ddbd850f4499b1d16136ade8b80236"},"downloads":-1,"filename":"dummy_autoupdate-0.1.0.tar.gz","has_sig":false,"md5_digest":"a185ebd16dc099eece63d72e6ea316e2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4183,"upload_time":"2020-06-18T22:26:14","upload_time_iso_8601":"2020-06-18T22:26:14.558121Z","url":"https://files.pythonhosted.org/packages/76/dd/68fb8ddf2256dc519e44279d2ca943ba2f7393efcd3ab869f6c1f9075051/dummy_autoupdate-0.1.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.0":[{"comment_text":"","digests":{"md5":"748e2d502ca253b9402e47da7107d673","sha256":"04667d1db28255ee20d86fcc59d8a97a5c0c6cacea9278406573c551b9b5d682"},"downloads":-1,"filename":"dummy_autoupdate-0.2.0.tar.gz","has_sig":false,"md5_digest":"748e2d502ca253b9402e47da7107d673","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4513,"upload_time":"2020-06-18T23:26:13","upload_time_iso_8601":"2020-06-18T23:26:13.625837Z","url":"https://files.pythonhosted.org/packages/81/fa/c9794f796329f308fbedbd8b1cf04abc23dac95f3918a2670eaa2da38831/dummy_autoupdate-0.2.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.1":[{"comment_text":"","digests":{"md5":"b4aa1ffaf5357a5c69590d9ca9e349ea","sha256":"34e1c865688a2a549102888ed5c7bc9545838173504bad965aafd019e31fcc82"},"downloads":-1,"filename":"dummy_autoupdate-0.2.1.tar.gz","has_sig":false,"md5_digest":"b4aa1ffaf5357a5c69590d9ca9e349ea","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4528,"upload_time":"2020-06-18T23:30:10","upload_time_iso_8601":"2020-06-18T23:30:10.843095Z","url":"https://files.pythonhosted.org/packages/cd/79/18bcfc0b768950a501e16e97ed2c5e57cf8f7cc686454dd37fcbbadf13f6/dummy_autoupdate-0.2.1.tar.gz","yanked":false,"yanked_reason":null}],"0.2.2":[{"comment_text":"","digests":{"md5":"335d8c44871df105b45a6a7fc4966aa2","sha256":"1cd56a231150ad22aefc51c083492c4dd1e9d4326b4be36488e382397b55e51d"},"downloads":-1,"filename":"dummy_autoupdate-0.2.2.tar.gz","has_sig":false,"md5_digest":"335d8c44871df105b45a6a7fc4966aa2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4586,"upload_time":"2020-06-18T23:38:17","upload_time_iso_8601":"2020-06-18T23:38:17.615737Z","url":"https://files.pythonhosted.org/packages/7c/09/067a52e6e46b567421c813e62df81ade32ec29ccf9df954a3fb3b198e34a/dummy_autoupdate-0.2.2.tar.gz","yanked":false,"yanked_reason":null}],"0.2.3":[{"comment_text":"","digests":{"md5":"05396ac1fc3c0cb3c591adb43a2afd71","sha256":"3064ad3e5783742eddb1677f03ceedf84d817bfeb97a29f8c69da2395a532092"},"downloads":-1,"filename":"dummy_autoupdate-0.2.3.tar.gz","has_sig":false,"md5_digest":"05396ac1fc3c0cb3c591adb43a2afd71","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4607,"upload_time":"2020-06-18T23:40:46","upload_time_iso_8601":"2020-06-18T23:40:46.950427Z","url":"https://files.pythonhosted.org/packages/da/21/97b9dc515e22853f7c4b144c1be05a7756eab2265fb38a4ac036bf5f0a49/dummy_autoupdate-0.2.3.tar.gz","yanked":false,"yanked_reason":null}]},"urls":[{"comment_text":"","digests":{"md5":"05396ac1fc3c0cb3c591adb43a2afd71","sha256":"3064ad3e5783742eddb1677f03ceedf84d817bfeb97a29f8c69da2395a532092"},"downloads":-1,"filename":"dummy_autoupdate-0.2.3.tar.gz","has_sig":false,"md5_digest":"05396ac1fc3c0cb3c591adb43a2afd71","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4607,"upload_time":"2020-06-18T23:40:46","upload_time_iso_8601":"2020-06-18T23:40:46.950427Z","url":"https://files.pythonhosted.org/packages/da/21/97b9dc515e22853f7c4b144c1be05a7756eab2265fb38a4ac036bf5f0a49/dummy_autoupdate-0.2.3.tar.gz","yanked":false,"yanked_reason":null}]}
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.3.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1432
+INFO:dummy_autoupdate.check_version:result: {"info":{"author":"Vladimir Starostin","author_email":"vladimir.starostin@uni-tuebingen.de","bugtrack_url":null,"classifiers":[],"description":"","description_content_type":"","docs_url":null,"download_url":"","downloads":{"last_day":-1,"last_month":-1,"last_week":-1},"home_page":"","keywords":"","license":"MIT","maintainer":"","maintainer_email":"","name":"dummy-autoupdate","package_url":"https://pypi.org/project/dummy-autoupdate/","platform":"","project_url":"https://pypi.org/project/dummy-autoupdate/","project_urls":null,"release_url":"https://pypi.org/project/dummy-autoupdate/0.2.3/","requires_dist":null,"requires_python":">=3.7.2","summary":"Dummy autoupdate for testing","version":"0.2.3","yanked":false,"yanked_reason":null},"last_serial":7510683,"releases":{"0.0.2":[{"comment_text":"","digests":{"md5":"b6f60a347098c1d48ef27fc7b1b02f07","sha256":"41e6c446736e62c4ac5b8eae4944212b8947091f864ca890b66af1235042ee29"},"downloads":-1,"filename":"dummy_autoupdate-0.0.2.tar.gz","has_sig":false,"md5_digest":"b6f60a347098c1d48ef27fc7b1b02f07","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4503,"upload_time":"2020-06-18T23:25:00","upload_time_iso_8601":"2020-06-18T23:25:00.150931Z","url":"https://files.pythonhosted.org/packages/11/88/4d2eb3de4ab894646cc4735d8906ffd133513c18672eec4b35acba271d0a/dummy_autoupdate-0.0.2.tar.gz","yanked":false,"yanked_reason":null}],"0.1.0":[{"comment_text":"","digests":{"md5":"a185ebd16dc099eece63d72e6ea316e2","sha256":"b26b74c2dc1fa82e4464ff13d1d993a3d7ddbd850f4499b1d16136ade8b80236"},"downloads":-1,"filename":"dummy_autoupdate-0.1.0.tar.gz","has_sig":false,"md5_digest":"a185ebd16dc099eece63d72e6ea316e2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4183,"upload_time":"2020-06-18T22:26:14","upload_time_iso_8601":"2020-06-18T22:26:14.558121Z","url":"https://files.pythonhosted.org/packages/76/dd/68fb8ddf2256dc519e44279d2ca943ba2f7393efcd3ab869f6c1f9075051/dummy_autoupdate-0.1.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.0":[{"comment_text":"","digests":{"md5":"748e2d502ca253b9402e47da7107d673","sha256":"04667d1db28255ee20d86fcc59d8a97a5c0c6cacea9278406573c551b9b5d682"},"downloads":-1,"filename":"dummy_autoupdate-0.2.0.tar.gz","has_sig":false,"md5_digest":"748e2d502ca253b9402e47da7107d673","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4513,"upload_time":"2020-06-18T23:26:13","upload_time_iso_8601":"2020-06-18T23:26:13.625837Z","url":"https://files.pythonhosted.org/packages/81/fa/c9794f796329f308fbedbd8b1cf04abc23dac95f3918a2670eaa2da38831/dummy_autoupdate-0.2.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.1":[{"comment_text":"","digests":{"md5":"b4aa1ffaf5357a5c69590d9ca9e349ea","sha256":"34e1c865688a2a549102888ed5c7bc9545838173504bad965aafd019e31fcc82"},"downloads":-1,"filename":"dummy_autoupdate-0.2.1.tar.gz","has_sig":false,"md5_digest":"b4aa1ffaf5357a5c69590d9ca9e349ea","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4528,"upload_time":"2020-06-18T23:30:10","upload_time_iso_8601":"2020-06-18T23:30:10.843095Z","url":"https://files.pythonhosted.org/packages/cd/79/18bcfc0b768950a501e16e97ed2c5e57cf8f7cc686454dd37fcbbadf13f6/dummy_autoupdate-0.2.1.tar.gz","yanked":false,"yanked_reason":null}],"0.2.2":[{"comment_text":"","digests":{"md5":"335d8c44871df105b45a6a7fc4966aa2","sha256":"1cd56a231150ad22aefc51c083492c4dd1e9d4326b4be36488e382397b55e51d"},"downloads":-1,"filename":"dummy_autoupdate-0.2.2.tar.gz","has_sig":false,"md5_digest":"335d8c44871df105b45a6a7fc4966aa2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4586,"upload_time":"2020-06-18T23:38:17","upload_time_iso_8601":"2020-06-18T23:38:17.615737Z","url":"https://files.pythonhosted.org/packages/7c/09/067a52e6e46b567421c813e62df81ade32ec29ccf9df954a3fb3b198e34a/dummy_autoupdate-0.2.2.tar.gz","yanked":false,"yanked_reason":null}],"0.2.3":[{"comment_text":"","digests":{"md5":"05396ac1fc3c0cb3c591adb43a2afd71","sha256":"3064ad3e5783742eddb1677f03ceedf84d817bfeb97a29f8c69da2395a532092"},"downloads":-1,"filename":"dummy_autoupdate-0.2.3.tar.gz","has_sig":false,"md5_digest":"05396ac1fc3c0cb3c591adb43a2afd71","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4607,"upload_time":"2020-06-18T23:40:46","upload_time_iso_8601":"2020-06-18T23:40:46.950427Z","url":"https://files.pythonhosted.org/packages/da/21/97b9dc515e22853f7c4b144c1be05a7756eab2265fb38a4ac036bf5f0a49/dummy_autoupdate-0.2.3.tar.gz","yanked":false,"yanked_reason":null}]},"urls":[{"comment_text":"","digests":{"md5":"05396ac1fc3c0cb3c591adb43a2afd71","sha256":"3064ad3e5783742eddb1677f03ceedf84d817bfeb97a29f8c69da2395a532092"},"downloads":-1,"filename":"dummy_autoupdate-0.2.3.tar.gz","has_sig":false,"md5_digest":"05396ac1fc3c0cb3c591adb43a2afd71","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4607,"upload_time":"2020-06-18T23:40:46","upload_time_iso_8601":"2020-06-18T23:40:46.950427Z","url":"https://files.pythonhosted.org/packages/da/21/97b9dc515e22853f7c4b144c1be05a7756eab2265fb38a4ac036bf5f0a49/dummy_autoupdate-0.2.3.tar.gz","yanked":false,"yanked_reason":null}]}
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.3.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1432
+INFO:dummy_autoupdate.check_version:result: {"info":{"author":"Vladimir Starostin","author_email":"vladimir.starostin@uni-tuebingen.de","bugtrack_url":null,"classifiers":[],"description":"","description_content_type":"","docs_url":null,"download_url":"","downloads":{"last_day":-1,"last_month":-1,"last_week":-1},"home_page":"","keywords":"","license":"MIT","maintainer":"","maintainer_email":"","name":"dummy-autoupdate","package_url":"https://pypi.org/project/dummy-autoupdate/","platform":"","project_url":"https://pypi.org/project/dummy-autoupdate/","project_urls":null,"release_url":"https://pypi.org/project/dummy-autoupdate/0.2.3/","requires_dist":null,"requires_python":">=3.7.2","summary":"Dummy autoupdate for testing","version":"0.2.3","yanked":false,"yanked_reason":null},"last_serial":7510683,"releases":{"0.0.2":[{"comment_text":"","digests":{"md5":"b6f60a347098c1d48ef27fc7b1b02f07","sha256":"41e6c446736e62c4ac5b8eae4944212b8947091f864ca890b66af1235042ee29"},"downloads":-1,"filename":"dummy_autoupdate-0.0.2.tar.gz","has_sig":false,"md5_digest":"b6f60a347098c1d48ef27fc7b1b02f07","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4503,"upload_time":"2020-06-18T23:25:00","upload_time_iso_8601":"2020-06-18T23:25:00.150931Z","url":"https://files.pythonhosted.org/packages/11/88/4d2eb3de4ab894646cc4735d8906ffd133513c18672eec4b35acba271d0a/dummy_autoupdate-0.0.2.tar.gz","yanked":false,"yanked_reason":null}],"0.1.0":[{"comment_text":"","digests":{"md5":"a185ebd16dc099eece63d72e6ea316e2","sha256":"b26b74c2dc1fa82e4464ff13d1d993a3d7ddbd850f4499b1d16136ade8b80236"},"downloads":-1,"filename":"dummy_autoupdate-0.1.0.tar.gz","has_sig":false,"md5_digest":"a185ebd16dc099eece63d72e6ea316e2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4183,"upload_time":"2020-06-18T22:26:14","upload_time_iso_8601":"2020-06-18T22:26:14.558121Z","url":"https://files.pythonhosted.org/packages/76/dd/68fb8ddf2256dc519e44279d2ca943ba2f7393efcd3ab869f6c1f9075051/dummy_autoupdate-0.1.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.0":[{"comment_text":"","digests":{"md5":"748e2d502ca253b9402e47da7107d673","sha256":"04667d1db28255ee20d86fcc59d8a97a5c0c6cacea9278406573c551b9b5d682"},"downloads":-1,"filename":"dummy_autoupdate-0.2.0.tar.gz","has_sig":false,"md5_digest":"748e2d502ca253b9402e47da7107d673","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4513,"upload_time":"2020-06-18T23:26:13","upload_time_iso_8601":"2020-06-18T23:26:13.625837Z","url":"https://files.pythonhosted.org/packages/81/fa/c9794f796329f308fbedbd8b1cf04abc23dac95f3918a2670eaa2da38831/dummy_autoupdate-0.2.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.1":[{"comment_text":"","digests":{"md5":"b4aa1ffaf5357a5c69590d9ca9e349ea","sha256":"34e1c865688a2a549102888ed5c7bc9545838173504bad965aafd019e31fcc82"},"downloads":-1,"filename":"dummy_autoupdate-0.2.1.tar.gz","has_sig":false,"md5_digest":"b4aa1ffaf5357a5c69590d9ca9e349ea","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4528,"upload_time":"2020-06-18T23:30:10","upload_time_iso_8601":"2020-06-18T23:30:10.843095Z","url":"https://files.pythonhosted.org/packages/cd/79/18bcfc0b768950a501e16e97ed2c5e57cf8f7cc686454dd37fcbbadf13f6/dummy_autoupdate-0.2.1.tar.gz","yanked":false,"yanked_reason":null}],"0.2.2":[{"comment_text":"","digests":{"md5":"335d8c44871df105b45a6a7fc4966aa2","sha256":"1cd56a231150ad22aefc51c083492c4dd1e9d4326b4be36488e382397b55e51d"},"downloads":-1,"filename":"dummy_autoupdate-0.2.2.tar.gz","has_sig":false,"md5_digest":"335d8c44871df105b45a6a7fc4966aa2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4586,"upload_time":"2020-06-18T23:38:17","upload_time_iso_8601":"2020-06-18T23:38:17.615737Z","url":"https://files.pythonhosted.org/packages/7c/09/067a52e6e46b567421c813e62df81ade32ec29ccf9df954a3fb3b198e34a/dummy_autoupdate-0.2.2.tar.gz","yanked":false,"yanked_reason":null}],"0.2.3":[{"comment_text":"","digests":{"md5":"05396ac1fc3c0cb3c591adb43a2afd71","sha256":"3064ad3e5783742eddb1677f03ceedf84d817bfeb97a29f8c69da2395a532092"},"downloads":-1,"filename":"dummy_autoupdate-0.2.3.tar.gz","has_sig":false,"md5_digest":"05396ac1fc3c0cb3c591adb43a2afd71","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4607,"upload_time":"2020-06-18T23:40:46","upload_time_iso_8601":"2020-06-18T23:40:46.950427Z","url":"https://files.pythonhosted.org/packages/da/21/97b9dc515e22853f7c4b144c1be05a7756eab2265fb38a4ac036bf5f0a49/dummy_autoupdate-0.2.3.tar.gz","yanked":false,"yanked_reason":null}]},"urls":[{"comment_text":"","digests":{"md5":"05396ac1fc3c0cb3c591adb43a2afd71","sha256":"3064ad3e5783742eddb1677f03ceedf84d817bfeb97a29f8c69da2395a532092"},"downloads":-1,"filename":"dummy_autoupdate-0.2.3.tar.gz","has_sig":false,"md5_digest":"05396ac1fc3c0cb3c591adb43a2afd71","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4607,"upload_time":"2020-06-18T23:40:46","upload_time_iso_8601":"2020-06-18T23:40:46.950427Z","url":"https://files.pythonhosted.org/packages/da/21/97b9dc515e22853f7c4b144c1be05a7756eab2265fb38a4ac036bf5f0a49/dummy_autoupdate-0.2.3.tar.gz","yanked":false,"yanked_reason":null}]}
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.3.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1580
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.4.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1716
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.5.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1716
+INFO:dummy_autoupdate.check_version:new version available : 0.2.5.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1716
+INFO:dummy_autoupdate.check_version:new version available : 0.2.5.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1716
+INFO:dummy_autoupdate.check_version:new version available : 0.2.5.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1716
+INFO:dummy_autoupdate.check_version:new version available : 0.2.5.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1716
+INFO:dummy_autoupdate.check_version:new version available : 0.2.5.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1716
+INFO:dummy_autoupdate.check_version:new version available : 0.2.5.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1716
+INFO:dummy_autoupdate.check_version:new version available : 0.2.5.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1716
+INFO:dummy_autoupdate.check_version:new version available : 0.2.5.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1716
+INFO:dummy_autoupdate.check_version:new version available : 0.2.5.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:__main__:Rebooting the program with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe...
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1998
+INFO:dummy_autoupdate.check_version:new version available : 0.2.7.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 1998
+INFO:dummy_autoupdate.check_version:new version available : 0.2.7.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2141
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.9.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2141
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.9.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2141
+INFO:dummy_autoupdate.check_version:new version available : 0.2.9.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe.
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:__main__:Rebooting the program with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe...
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2141
+INFO:dummy_autoupdate.check_version:new version available : 0.2.9.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2141
+INFO:dummy_autoupdate.check_version:new version available : 0.2.9.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe.
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:__main__:Rebooting the program with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe...
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2141
+INFO:dummy_autoupdate.check_version:new version available : 0.2.9.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe.
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:__main__:Rebooting the program with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe...
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2141
+INFO:dummy_autoupdate.check_version:new version available : 0.2.9.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2141
+INFO:dummy_autoupdate.check_version:new version available : 0.2.9.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2431
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.11.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2431
+INFO:dummy_autoupdate.check_version:new version available : 0.2.11.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe.
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2431
+INFO:dummy_autoupdate.check_version:new version available : 0.2.11.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe.
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2431
+INFO:dummy_autoupdate.check_version:new version available : 0.2.11.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe.
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2431
+INFO:dummy_autoupdate.check_version:new version available : 0.2.11.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.13!
+INFO:dummy_autoupdate:**********
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2707
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.13.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.13!
+INFO:dummy_autoupdate:**********
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2707
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.13.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.13!
+INFO:dummy_autoupdate:**********
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG:urllib3.connectionpool:https://pypi.python.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 122
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pypi.org:443
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy_autoupdate/json HTTP/1.1" 301 224
+DEBUG:urllib3.connectionpool:https://pypi.org:443 "GET /pypi/dummy-autoupdate/json HTTP/1.1" 200 2707
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.13.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.13!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:No internet.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.15!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.14.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.1!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:new version available : 0.2.14.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe.
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.1!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:new version available : 0.2.14.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe.
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.14!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.14.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.16!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.16.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.16!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.16.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.15!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:new version available : 0.2.16.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe.
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.16!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.16.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.19!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.18.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.19!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.19.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.1!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:new version available : 0.2.19.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate==0.2.19
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe.
+INFO:dummy_autoupdate.update_version:res = 0
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.19!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.19.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.21!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:response: {"info":{"author":"Vladimir Starostin","author_email":"vladimir.starostin@uni-tuebingen.de","bugtrack_url":null,"classifiers":[],"description":"","description_content_type":"","docs_url":null,"download_url":"","downloads":{"last_day":-1,"last_month":-1,"last_week":-1},"home_page":"","keywords":"","license":"MIT","maintainer":"","maintainer_email":"","name":"dummy-autoupdate","package_url":"https://pypi.org/project/dummy-autoupdate/","platform":"","project_url":"https://pypi.org/project/dummy-autoupdate/","project_urls":null,"release_url":"https://pypi.org/project/dummy-autoupdate/0.2.21/","requires_dist":null,"requires_python":">=3.7.2","summary":"Dummy autoupdate for testing","version":"0.2.21","yanked":false,"yanked_reason":null},"last_serial":7513079,"releases":{"0.0.2":[{"comment_text":"","digests":{"md5":"b6f60a347098c1d48ef27fc7b1b02f07","sha256":"41e6c446736e62c4ac5b8eae4944212b8947091f864ca890b66af1235042ee29"},"downloads":-1,"filename":"dummy_autoupdate-0.0.2.tar.gz","has_sig":false,"md5_digest":"b6f60a347098c1d48ef27fc7b1b02f07","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4503,"upload_time":"2020-06-18T23:25:00","upload_time_iso_8601":"2020-06-18T23:25:00.150931Z","url":"https://files.pythonhosted.org/packages/11/88/4d2eb3de4ab894646cc4735d8906ffd133513c18672eec4b35acba271d0a/dummy_autoupdate-0.0.2.tar.gz","yanked":false,"yanked_reason":null}],"0.1.0":[{"comment_text":"","digests":{"md5":"a185ebd16dc099eece63d72e6ea316e2","sha256":"b26b74c2dc1fa82e4464ff13d1d993a3d7ddbd850f4499b1d16136ade8b80236"},"downloads":-1,"filename":"dummy_autoupdate-0.1.0.tar.gz","has_sig":false,"md5_digest":"a185ebd16dc099eece63d72e6ea316e2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4183,"upload_time":"2020-06-18T22:26:14","upload_time_iso_8601":"2020-06-18T22:26:14.558121Z","url":"https://files.pythonhosted.org/packages/76/dd/68fb8ddf2256dc519e44279d2ca943ba2f7393efcd3ab869f6c1f9075051/dummy_autoupdate-0.1.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.0":[{"comment_text":"","digests":{"md5":"748e2d502ca253b9402e47da7107d673","sha256":"04667d1db28255ee20d86fcc59d8a97a5c0c6cacea9278406573c551b9b5d682"},"downloads":-1,"filename":"dummy_autoupdate-0.2.0.tar.gz","has_sig":false,"md5_digest":"748e2d502ca253b9402e47da7107d673","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4513,"upload_time":"2020-06-18T23:26:13","upload_time_iso_8601":"2020-06-18T23:26:13.625837Z","url":"https://files.pythonhosted.org/packages/81/fa/c9794f796329f308fbedbd8b1cf04abc23dac95f3918a2670eaa2da38831/dummy_autoupdate-0.2.0.tar.gz","yanked":false,"yanked_reason":null}],"0.2.1":[{"comment_text":"","digests":{"md5":"b4aa1ffaf5357a5c69590d9ca9e349ea","sha256":"34e1c865688a2a549102888ed5c7bc9545838173504bad965aafd019e31fcc82"},"downloads":-1,"filename":"dummy_autoupdate-0.2.1.tar.gz","has_sig":false,"md5_digest":"b4aa1ffaf5357a5c69590d9ca9e349ea","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4528,"upload_time":"2020-06-18T23:30:10","upload_time_iso_8601":"2020-06-18T23:30:10.843095Z","url":"https://files.pythonhosted.org/packages/cd/79/18bcfc0b768950a501e16e97ed2c5e57cf8f7cc686454dd37fcbbadf13f6/dummy_autoupdate-0.2.1.tar.gz","yanked":false,"yanked_reason":null}],"0.2.10":[{"comment_text":"","digests":{"md5":"878fc7a671fa6eeab8de22d067da1bfb","sha256":"1116a10c3a274befeff4b60258630c7b6f5ebae68f62670ae402a5b00c96e725"},"downloads":-1,"filename":"dummy_autoupdate-0.2.10.tar.gz","has_sig":false,"md5_digest":"878fc7a671fa6eeab8de22d067da1bfb","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5395,"upload_time":"2020-06-19T00:36:48","upload_time_iso_8601":"2020-06-19T00:36:48.788461Z","url":"https://files.pythonhosted.org/packages/34/9d/5785a84f549435fd0a33ffcebbc50ef7d74f871214f3f91e4cdf46ef3f8d/dummy_autoupdate-0.2.10.tar.gz","yanked":false,"yanked_reason":null}],"0.2.11":[{"comment_text":"","digests":{"md5":"c1947cce59fde4c7470ed5526e88526b","sha256":"15874162a2f45f197bac530d2e05a45033722f8eddf3f00b6299a51f11f0649e"},"downloads":-1,"filename":"dummy_autoupdate-0.2.11.tar.gz","has_sig":false,"md5_digest":"c1947cce59fde4c7470ed5526e88526b","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5400,"upload_time":"2020-06-19T00:40:31","upload_time_iso_8601":"2020-06-19T00:40:31.517447Z","url":"https://files.pythonhosted.org/packages/c6/65/bdc3e94f1c597be9cdaec4a46c02644db3cdd8a4080e92ba24856d64e390/dummy_autoupdate-0.2.11.tar.gz","yanked":false,"yanked_reason":null}],"0.2.12":[{"comment_text":"","digests":{"md5":"147c132821bc810637c1905220ea8ab5","sha256":"ff699b3fa1ea3daf9a004050da48983920475e78d99599ca61f8e44e5bd00bfc"},"downloads":-1,"filename":"dummy_autoupdate-0.2.12.tar.gz","has_sig":false,"md5_digest":"147c132821bc810637c1905220ea8ab5","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5364,"upload_time":"2020-06-19T00:54:15","upload_time_iso_8601":"2020-06-19T00:54:15.852815Z","url":"https://files.pythonhosted.org/packages/74/87/8630d7f86a054bbfd9c7df9441f69b8bd7dd752a7dc98e8e59d773fc6adb/dummy_autoupdate-0.2.12.tar.gz","yanked":false,"yanked_reason":null}],"0.2.13":[{"comment_text":"","digests":{"md5":"5b97d129c2340a3a16551bfa858f4321","sha256":"626a87bb7c32f754bbfc21e933ab943635c2ddb8e725543164086b06398625f6"},"downloads":-1,"filename":"dummy_autoupdate-0.2.13.tar.gz","has_sig":false,"md5_digest":"5b97d129c2340a3a16551bfa858f4321","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5375,"upload_time":"2020-06-19T00:55:31","upload_time_iso_8601":"2020-06-19T00:55:31.053991Z","url":"https://files.pythonhosted.org/packages/e2/1f/f37bdf1b3a87b7ca803898083e54b87b79628d368990cf1b9a3510fb6301/dummy_autoupdate-0.2.13.tar.gz","yanked":false,"yanked_reason":null}],"0.2.14":[{"comment_text":"","digests":{"md5":"03adc317be75d8c10ab061d34edaadb3","sha256":"ce0e4899835c8526a8a4c92a70b0fd091d1850b142ccbefc9156b543133a6e88"},"downloads":-1,"filename":"dummy_autoupdate-0.2.14.tar.gz","has_sig":false,"md5_digest":"03adc317be75d8c10ab061d34edaadb3","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5410,"upload_time":"2020-06-19T01:01:01","upload_time_iso_8601":"2020-06-19T01:01:01.877826Z","url":"https://files.pythonhosted.org/packages/53/e6/136918d21a774cdc3f93d9f931c7ba895fe6f72bccef194f72ececf26da5/dummy_autoupdate-0.2.14.tar.gz","yanked":false,"yanked_reason":null}],"0.2.15":[{"comment_text":"","digests":{"md5":"ee72a1a4653e103ccdc424897d328cb4","sha256":"0a19f5891db6e16204cd328c5465ab23a311d0f229aef89d02d30c2443995355"},"downloads":-1,"filename":"dummy_autoupdate-0.2.15.tar.gz","has_sig":false,"md5_digest":"ee72a1a4653e103ccdc424897d328cb4","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5537,"upload_time":"2020-06-19T01:09:45","upload_time_iso_8601":"2020-06-19T01:09:45.475182Z","url":"https://files.pythonhosted.org/packages/37/29/7d8fed3c3fe3f4ada7c474701a7fd4cc2486a1d663448993c71e8277a5f8/dummy_autoupdate-0.2.15.tar.gz","yanked":false,"yanked_reason":null}],"0.2.16":[{"comment_text":"","digests":{"md5":"79bf3169a6890e4916ce76c6a495ad99","sha256":"ef0155d0455ae77fa02cb703a13f4b981d0e489b6face519a12356d21983b6a1"},"downloads":-1,"filename":"dummy_autoupdate-0.2.16.tar.gz","has_sig":false,"md5_digest":"79bf3169a6890e4916ce76c6a495ad99","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5519,"upload_time":"2020-06-19T01:11:16","upload_time_iso_8601":"2020-06-19T01:11:16.159424Z","url":"https://files.pythonhosted.org/packages/95/b7/331601c5475787193fcb486f8706ad7e785fb19b3ab95ac2342266553af8/dummy_autoupdate-0.2.16.tar.gz","yanked":false,"yanked_reason":null}],"0.2.17":[{"comment_text":"","digests":{"md5":"9230aaaf44f1ecab06cbadef8f0a46dc","sha256":"51651af73fc1eac504326a3f64155573be2573911412913489b5216a22f2878a"},"downloads":-1,"filename":"dummy_autoupdate-0.2.17.tar.gz","has_sig":false,"md5_digest":"9230aaaf44f1ecab06cbadef8f0a46dc","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5572,"upload_time":"2020-06-19T01:30:25","upload_time_iso_8601":"2020-06-19T01:30:25.875629Z","url":"https://files.pythonhosted.org/packages/f4/af/37849d12a8a40c326ff61eee543052eb1cc8613a8473ee468639f54db2dd/dummy_autoupdate-0.2.17.tar.gz","yanked":false,"yanked_reason":null}],"0.2.18":[{"comment_text":"","digests":{"md5":"2bd9cb145829c003787b335848691841","sha256":"31a26a87dcf39deac0691d95b8eeaabed820e58de80fde61c4b1e4d52f2665e2"},"downloads":-1,"filename":"dummy_autoupdate-0.2.18.tar.gz","has_sig":false,"md5_digest":"2bd9cb145829c003787b335848691841","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5548,"upload_time":"2020-06-19T01:31:28","upload_time_iso_8601":"2020-06-19T01:31:28.814144Z","url":"https://files.pythonhosted.org/packages/de/ba/6c12b12148a994b4bcb8be399dcb69714831fa5c95cf71370f72abed54c0/dummy_autoupdate-0.2.18.tar.gz","yanked":false,"yanked_reason":null}],"0.2.19":[{"comment_text":"","digests":{"md5":"2e1f9d402dbd68bf3d04bbebbff6a59d","sha256":"82f8aae6018377f3eec2bf86ed4551053167692d07e5a8410a4560a117486c8f"},"downloads":-1,"filename":"dummy_autoupdate-0.2.19.tar.gz","has_sig":false,"md5_digest":"2e1f9d402dbd68bf3d04bbebbff6a59d","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5625,"upload_time":"2020-06-19T07:56:10","upload_time_iso_8601":"2020-06-19T07:56:10.525112Z","url":"https://files.pythonhosted.org/packages/dd/2c/ec574d279a4e1cfdce4750eb13e6ec08df11e7daf659ea3aad521bba2270/dummy_autoupdate-0.2.19.tar.gz","yanked":false,"yanked_reason":null}],"0.2.2":[{"comment_text":"","digests":{"md5":"335d8c44871df105b45a6a7fc4966aa2","sha256":"1cd56a231150ad22aefc51c083492c4dd1e9d4326b4be36488e382397b55e51d"},"downloads":-1,"filename":"dummy_autoupdate-0.2.2.tar.gz","has_sig":false,"md5_digest":"335d8c44871df105b45a6a7fc4966aa2","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4586,"upload_time":"2020-06-18T23:38:17","upload_time_iso_8601":"2020-06-18T23:38:17.615737Z","url":"https://files.pythonhosted.org/packages/7c/09/067a52e6e46b567421c813e62df81ade32ec29ccf9df954a3fb3b198e34a/dummy_autoupdate-0.2.2.tar.gz","yanked":false,"yanked_reason":null}],"0.2.20":[{"comment_text":"","digests":{"md5":"836fd5fc3770639d1188ee6a09744503","sha256":"1eefcce3a69bb1dc74642af130a929f4f717c113d8c29652b5589b6c60517b6f"},"downloads":-1,"filename":"dummy_autoupdate-0.2.20.tar.gz","has_sig":false,"md5_digest":"836fd5fc3770639d1188ee6a09744503","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5657,"upload_time":"2020-06-19T07:59:51","upload_time_iso_8601":"2020-06-19T07:59:51.433822Z","url":"https://files.pythonhosted.org/packages/63/8c/7090b984f29c28f8f9a4e2e417723a20ac2905e4bd03ff7f89de9e9e5313/dummy_autoupdate-0.2.20.tar.gz","yanked":false,"yanked_reason":null}],"0.2.21":[{"comment_text":"","digests":{"md5":"7f3976a441437d8ddadb7576968e6855","sha256":"1b478adcd9ac575fa4f13efc06cbd5580c7e3b8f14d6dd5013f2deedba4e6ce3"},"downloads":-1,"filename":"dummy_autoupdate-0.2.21.tar.gz","has_sig":false,"md5_digest":"7f3976a441437d8ddadb7576968e6855","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5645,"upload_time":"2020-06-19T08:00:43","upload_time_iso_8601":"2020-06-19T08:00:43.686204Z","url":"https://files.pythonhosted.org/packages/11/09/6aa682072a65f049502b0784bfa41f7f17e2a86739bfb02c409ea5d96666/dummy_autoupdate-0.2.21.tar.gz","yanked":false,"yanked_reason":null}],"0.2.3":[{"comment_text":"","digests":{"md5":"05396ac1fc3c0cb3c591adb43a2afd71","sha256":"3064ad3e5783742eddb1677f03ceedf84d817bfeb97a29f8c69da2395a532092"},"downloads":-1,"filename":"dummy_autoupdate-0.2.3.tar.gz","has_sig":false,"md5_digest":"05396ac1fc3c0cb3c591adb43a2afd71","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":4607,"upload_time":"2020-06-18T23:40:46","upload_time_iso_8601":"2020-06-18T23:40:46.950427Z","url":"https://files.pythonhosted.org/packages/da/21/97b9dc515e22853f7c4b144c1be05a7756eab2265fb38a4ac036bf5f0a49/dummy_autoupdate-0.2.3.tar.gz","yanked":false,"yanked_reason":null}],"0.2.4":[{"comment_text":"","digests":{"md5":"e49cf101c17242b847830c18b38b1ba1","sha256":"975a139d35904df01a3ad728569600b87e53af3eed65003cb6bd9c9580a843d3"},"downloads":-1,"filename":"dummy_autoupdate-0.2.4.tar.gz","has_sig":false,"md5_digest":"e49cf101c17242b847830c18b38b1ba1","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5097,"upload_time":"2020-06-18T23:52:36","upload_time_iso_8601":"2020-06-18T23:52:36.181220Z","url":"https://files.pythonhosted.org/packages/04/53/1e04864e0eb284116831a8237ceef196dde0ac52c16e2376094b9bf51b17/dummy_autoupdate-0.2.4.tar.gz","yanked":false,"yanked_reason":null}],"0.2.5":[{"comment_text":"","digests":{"md5":"5b04e233759345d72c3333745cee8390","sha256":"40bb07bc64bae1937b323cf10d87debec1b72cbb0feda3bbce204056455370a4"},"downloads":-1,"filename":"dummy_autoupdate-0.2.5.tar.gz","has_sig":false,"md5_digest":"5b04e233759345d72c3333745cee8390","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5097,"upload_time":"2020-06-18T23:55:10","upload_time_iso_8601":"2020-06-18T23:55:10.170436Z","url":"https://files.pythonhosted.org/packages/19/64/2b71c4a514b8e45af48832e6666a4c60fd7afa3cba82a32d408d49ab0cdf/dummy_autoupdate-0.2.5.tar.gz","yanked":false,"yanked_reason":null}],"0.2.6":[{"comment_text":"","digests":{"md5":"5c6ef7bf0217b93eb430ed62dcc98834","sha256":"15c1630ce1ab0859aa14c40c9c595bcb2d5ff460883213191284c5937b112dc7"},"downloads":-1,"filename":"dummy_autoupdate-0.2.6.tar.gz","has_sig":false,"md5_digest":"5c6ef7bf0217b93eb430ed62dcc98834","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5125,"upload_time":"2020-06-19T00:13:02","upload_time_iso_8601":"2020-06-19T00:13:02.137589Z","url":"https://files.pythonhosted.org/packages/06/35/968845bc8878447ca7078eb2dcb6784517d8356aba7496ebcbcd4568218c/dummy_autoupdate-0.2.6.tar.gz","yanked":false,"yanked_reason":null}],"0.2.7":[{"comment_text":"","digests":{"md5":"4271899933a4871bb181303098a9024e","sha256":"fa428e63f42052a09d944d6cef918befd49589fa5e203e916ed6075966f48723"},"downloads":-1,"filename":"dummy_autoupdate-0.2.7.tar.gz","has_sig":false,"md5_digest":"4271899933a4871bb181303098a9024e","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5137,"upload_time":"2020-06-19T00:14:36","upload_time_iso_8601":"2020-06-19T00:14:36.149313Z","url":"https://files.pythonhosted.org/packages/79/c6/9d48c2f9a741df32f8f8f4f71e2a7f79c2a8135c5be9e7f7e595dec389ab/dummy_autoupdate-0.2.7.tar.gz","yanked":false,"yanked_reason":null}],"0.2.9":[{"comment_text":"","digests":{"md5":"c93d2ac0046ee4c8bdef794304d16c8d","sha256":"72e732f1f4f90c547b5b7db54c5af7db952e284246b39415072ebbde178e30d6"},"downloads":-1,"filename":"dummy_autoupdate-0.2.9.tar.gz","has_sig":false,"md5_digest":"c93d2ac0046ee4c8bdef794304d16c8d","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5311,"upload_time":"2020-06-19T00:25:01","upload_time_iso_8601":"2020-06-19T00:25:01.301126Z","url":"https://files.pythonhosted.org/packages/b3/9f/2f913188bca5e38b259622c11f3940d74fe1fa28ba86265e933d3d214195/dummy_autoupdate-0.2.9.tar.gz","yanked":false,"yanked_reason":null}]},"urls":[{"comment_text":"","digests":{"md5":"7f3976a441437d8ddadb7576968e6855","sha256":"1b478adcd9ac575fa4f13efc06cbd5580c7e3b8f14d6dd5013f2deedba4e6ce3"},"downloads":-1,"filename":"dummy_autoupdate-0.2.21.tar.gz","has_sig":false,"md5_digest":"7f3976a441437d8ddadb7576968e6855","packagetype":"sdist","python_version":"source","requires_python":">=3.7.2","size":5645,"upload_time":"2020-06-19T08:00:43","upload_time_iso_8601":"2020-06-19T08:00:43.686204Z","url":"https://files.pythonhosted.org/packages/11/09/6aa682072a65f049502b0784bfa41f7f17e2a86739bfb02c409ea5d96666/dummy_autoupdate-0.2.21.tar.gz","yanked":false,"yanked_reason":null}]}
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.21.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.21!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.21.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.23!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.22.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.24!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.23.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.20!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:new version available : 0.2.23.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate==0.2.23
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe (attempt 1).
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.23!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.23.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.24!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.23.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.22!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:new version available : 0.2.23.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate==0.2.23
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe (attempt 1).
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.22!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:new version available : 0.2.23.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate==0.2.23
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe (attempt 1).
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.23!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.23.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.24!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.24.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.24!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.24.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.24!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.24.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.24!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.24.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.24!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.24.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.24.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.24!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.24.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.24!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.24.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.22!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate.check_version:new version available : 0.2.24.
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate.check_version:new version available : 0.2.24.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate==0.2.24
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe (attempt 1).
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.24!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:latest_version_installed : 0.2.24.
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.27!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.25!
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate.check_version:Checking the latest version of the dummy_autoupdate package.
+INFO:dummy_autoupdate.check_version:new version available : 0.2.27.
+INFO:dummy_autoupdate.update_version:Updating package dummy_autoupdate==0.2.27
+INFO:dummy_autoupdate.update_version:Updating the package with C:\Users\fuvap\PycharmProjects\dummy_autoupdate_project\venv\Scripts\python.exe (attempt 1).
+INFO:dummy_autoupdate:**********
+INFO:dummy_autoupdate:Starting version 0.2.27!
+INFO:dummy_autoupdate:**********

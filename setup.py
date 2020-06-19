@@ -25,9 +25,11 @@ setup(
     license='MIT',
     python_requires='>=3.7.2',
     entry_points={
-        "gui_scripts": [
-            "dummy_autoupdate = dummy_autoupdate.__main__:main",
-        ]
+        'gui_scripts': [
+            'dummy_autoupdate = dummy_autoupdate.__main__:main',
+        ],
+        'console_scripts': [
+            'dummy_autoupdate_update = dummy_autoupdate.update_version:script_update'],
     },
     install_requires=[
         'PyQt5',

@@ -4,3 +4,4 @@ out/
 dist/
 *.egg-info/
 venv/
+*.txt
